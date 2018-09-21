@@ -64,7 +64,7 @@ var questions: [Question] = [
     
     
     Question(
-        text: "Насколько вы любите поездки на машине?",
+        text: "Насколько вы любите поездки?",
         type: .ranged,
         answers: [
             Answer(text: "Ненавижу", type: .cat),

@@ -237,12 +237,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="KJG-1b-ElU"/>
                     <connections>
+                        <outlet property="multipleStackView" destination="66B-hU-KvQ" id="Pxh-q0-qHc"/>
+                        <outlet property="rangedStackView" destination="ngk-nt-Yqw" id="xgr-2u-DR9"/>
+                        <outlet property="singleStackView" destination="Wyp-lR-vOz" id="7yw-zi-d8E"/>
                         <segue destination="GNM-Kp-Yof" kind="show" identifier="ResultsSegue" id="KIg-5c-0tC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Spw-Py-7Wp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1708" y="-155"/>
+            <point key="canvasLocation" x="1915" y="-186"/>
         </scene>
         <!--Результат-->
         <scene sceneID="E2R-cI-JSX">
