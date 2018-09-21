@@ -48,7 +48,7 @@ var questions: [Question] = [
         answers: [
             Answer(text: "Мясо", type: .dog),
             Answer(text: "Рыба", type: .cat),
-            Answer(text: "Морковка", type: .carrot),
+            Answer(text: "Морковка", type: .rabbit),
             Answer(text: "Кукуруза", type: .turtle)
         ]),
     
@@ -58,17 +58,17 @@ var questions: [Question] = [
         answers: [
             Answer(text: "Есть", type: .dog),
             Answer(text: "Спать", type: .cat),
-            Answer(text: "Обниматься", type: .carrot),
+            Answer(text: "Обниматься", type: .rabbit),
             Answer(text: "Плавать", type: .turtle)
         ]),
     
     
     Question(
         text: "Насколько вы любите поездки на машине?",
-        type: .multiple,
+        type: .ranged,
         answers: [
             Answer(text: "Ненавижу", type: .cat),
-            Answer(text: "Нервничаю", type: .carrot),
+            Answer(text: "Нервничаю", type: .rabbit),
             Answer(text: "Не замечаю", type: .turtle),
             Answer(text: "Обожаю", type: .dog)
         ])
