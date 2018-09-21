@@ -237,15 +237,27 @@
                     </view>
                     <navigationItem key="navigationItem" id="KJG-1b-ElU"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="98I-Rs-Qjd" id="400-h9-r7F"/>
+                        <outlet property="multiLabel2" destination="b1T-7R-uSQ" id="44v-vZ-xKW"/>
+                        <outlet property="multiLabel3" destination="3IG-gY-I4e" id="wHa-Yn-GC3"/>
+                        <outlet property="multiLabel4" destination="A8C-6d-YBc" id="E6U-uZ-f3h"/>
                         <outlet property="multipleStackView" destination="66B-hU-KvQ" id="Pxh-q0-qHc"/>
+                        <outlet property="questionLabel" destination="4GA-bi-R3a" id="waO-Ub-aB5"/>
+                        <outlet property="questionProgressView" destination="T3E-61-vo6" id="9If-qe-EFz"/>
+                        <outlet property="rangedLabel1" destination="GP5-dG-Xa9" id="pbj-V5-iny"/>
+                        <outlet property="rangedLabel2" destination="KPD-XG-NqS" id="rYF-wC-Y8x"/>
                         <outlet property="rangedStackView" destination="ngk-nt-Yqw" id="xgr-2u-DR9"/>
+                        <outlet property="singleButton1" destination="mop-Ty-kSy" id="GXL-fn-3sT"/>
+                        <outlet property="singleButton2" destination="kdO-eb-fkG" id="TUq-on-9ET"/>
+                        <outlet property="singleButton3" destination="zX4-JE-YfM" id="UnB-J0-E49"/>
+                        <outlet property="singleButton4" destination="RT1-tb-CU6" id="WNn-Yw-VRS"/>
                         <outlet property="singleStackView" destination="Wyp-lR-vOz" id="7yw-zi-d8E"/>
                         <segue destination="GNM-Kp-Yof" kind="show" identifier="ResultsSegue" id="KIg-5c-0tC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Spw-Py-7Wp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1915" y="-186"/>
+            <point key="canvasLocation" x="1676" y="-176"/>
         </scene>
         <!--Результат-->
         <scene sceneID="E2R-cI-JSX">
