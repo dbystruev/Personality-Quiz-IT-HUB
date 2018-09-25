@@ -11,6 +11,7 @@ import UIKit
 class QuestionViewController: UIViewController {
     
     var questionIndex = 0
+    var answersChosen = [Answer]()
 
     @IBOutlet weak var questionLabel: UILabel!
     
@@ -35,6 +36,11 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
+    }
+    
+    
+    @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
+        
     }
     
     func updateUI() {
